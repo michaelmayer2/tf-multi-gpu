@@ -40,5 +40,5 @@ y <- array(runif(num_samples * num_classes),
 parallel_model %>% fit(x, y, epochs = 20, batch_size = 256)
 
 # Save model via the template model (which shares the same weights):
-model %>% save_model_hdf5("my_model.h5")
+parallel_model %>% save_model_hdf5("my_parallel_model.h5")
 
