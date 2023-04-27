@@ -1,10 +1,10 @@
 {
   "R": {
-    "Version": "4.2.0",
+    "Version": "4.2.3",
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://packagemanager.rstudio.com/cran/2022-06-21"
+        "URL": "https://packagemanager.rstudio.com/cran/latest"
       },
       {
         "Name": "BioCsoft",
@@ -38,7 +38,7 @@
       "Package": "Matrix",
       "Version": "1.4-1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "699c47c606293bdfbc9fd78a93c9c8fe",
       "Requirements": [
         "lattice"
@@ -152,13 +152,12 @@
     },
     "keras": {
       "Package": "keras",
-      "Version": "2.9.0",
+      "Version": "2.11.1",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "12b3ffa1e9c35a8f16944605cafaa51a",
+      "Hash": "e6291f0b61e3ba4e1f4a9d24151d5e50",
       "Requirements": [
         "R6",
-        "ellipsis",
         "generics",
         "glue",
         "magrittr",
@@ -241,10 +240,10 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.25",
+      "Version": "1.28",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "786b311743eb8cd347491f8f0a571941",
+      "Hash": "86c441bf33e1d608db773cb94b848458",
       "Requirements": [
         "Matrix",
         "Rcpp",
@@ -282,10 +281,10 @@
     },
     "tensorflow": {
       "Package": "tensorflow",
-      "Version": "2.9.0",
+      "Version": "2.11.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "3a5470dbb11e17723167be43e7defbf1",
+      "Hash": "34fddd59db96f799164f802ab7e0de8d",
       "Requirements": [
         "config",
         "processx",
